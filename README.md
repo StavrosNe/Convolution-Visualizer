@@ -26,5 +26,5 @@ This is an app to help with the visualization of convolution integral.
 
 ## Images
 
-
+![Convolution Visualizer](path/to/image.png)
 
