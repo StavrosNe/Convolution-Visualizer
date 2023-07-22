@@ -63,14 +63,14 @@ class Interface(ctk.CTk):
                                       font=("Helvetica",20,'bold'))
         
         self.signalmenu = ctk.CTkOptionMenu(self.widgetframe, values=["Square","Triangle", 
-                                          "Unit Step","Damped Sine","Exp","Ramp"],
+                                          "Unit Step","Damped Sine","Exp","Ramp","Pulse Train"],
                                             width = 180 , font=("Roboto",18,),
                                             anchor = 'center',
                                             command = self.signal_menu_set) 
         self.signalmenu.set("Signal")
 
         self.kernelmenu = ctk.CTkOptionMenu(self.widgetframe, values=["Square","Triangle", 
-                                    "Unit Step","Impulse","Exp","Ramp"],
+                                    "Unit Step","Impulse","Exp","Ramp","Pulse Train"],
                                       width = 180 , font=("Roboto",18,),
                                             anchor = 'center',
                                             command = self.kernel_menu_set) 

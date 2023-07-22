@@ -25,6 +25,9 @@ class Convolution_Signal():
 
         elif input1 == 'Unit Step' or input1 == 'unit step':
             self.input1 = ['1',0,self.limit_right]
+
+        elif input1 == 'Pulse Train' or input1 == 'pulse train':
+            self.input1 = ['1',0,1,'-1',1,2]
             
         else:
             self.input1 = input1
@@ -46,6 +49,9 @@ class Convolution_Signal():
 
         elif input2 == 'Impulse' or input2 == 'impulse':
             self.input2 = 'impulse'
+        
+        elif input2 == 'Pulse Train' or input2 == 'pulse train':
+            self.input2 = ['1',0,1,'-1',1,2]
 
         else:
             self.input2 = input2
