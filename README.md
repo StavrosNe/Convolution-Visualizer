@@ -6,8 +6,8 @@ This is an app to help with the visualization of convolution integral.
 
 - Choose a Signal or Kernel from the dropdown menus
 - Type in the entries a custom equation to create a new Signal or Kernel
-  Example 1: If you type t,0,1,2-t,1,2 it will create a triangle signal
-  Example 2: If you type 1,0,1 it will create a square wave
+- Example 1: If you type t,0,1,2-t,1,2 it will create a triangle signal.
+- Example 2: If you type 1,0,1 it will create a square wave.
 
 ## Requirements
 
